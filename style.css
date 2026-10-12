@@ -1,0 +1,92 @@
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .intro-head {
+    padding: 50px 20px;
+  }
+
+  .intro-head h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro-head p {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    padding-top: 50px;
+  }
+
+  .social-links img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+
+  .main-header h5 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-content {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .intro-head h1 {
+    font-size: 2.2rem;
+  }
+
+  .intro-head p {
+    font-size: 1.1rem;
+  }
+
+  .social-links img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .social-links img {
+    width: 120px;
+    height: 120px;
+  }
+}
